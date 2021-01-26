@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MagicBall.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Magic Ball" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+
+        <Image Source="ball.png" Aspect="AspectFit" WidthRequest="200" Margin="20,20,20,20"  />
+
+        <Label x:Name="predictionLabel" Text="Think about a question" HorizontalTextAlignment="Center" FontSize="24" FontAttributes="Bold" Padding="30,0,30,0"/>
+
+        <Button Text="Make a prediction"
+                TextColor="White"
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand"
+                BorderWidth="3"
+                BackgroundColor="ForestGreen"
+                BorderRadius="10"
+                FontSize="24" 
+                Clicked="OnButtonClicked"/>
+    </StackLayout>
+
+</ContentPage>
