@@ -2,4 +2,4 @@
 
 A Magic Ball App developed with Xamarin.
 
-![Magic Ball App](https://github.com/antigones/xamarin-magic-ball/blob/main/magic_ball.gif?raw=true)
+<img src="magic_ball.gif" width="250"/>
